@@ -1,0 +1,16 @@
+package com.sathya.springbootex1;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class TestController {
+	// create request handler
+	@RequestMapping("/text")
+	public String display() {
+		return "controler.html";
+		
+		
+	}
+
+}

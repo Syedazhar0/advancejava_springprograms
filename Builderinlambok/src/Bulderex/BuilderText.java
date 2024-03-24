@@ -1,0 +1,16 @@
+package Bulderex;
+
+public class BuilderText {
+
+	public static void main(String[] args) {
+		Builderex1 builderex1 = Builderex1.builder()
+				.empId(101)
+				.empName("azhar")
+				.empSalary(20000.0)
+				.build();
+		System.out.println(builderex1);
+					
+
+	}
+
+}

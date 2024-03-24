@@ -1,0 +1,11 @@
+package lambokex1;
+
+// to use the lambok annotations download the jar file from  the intenet projectlambok
+@Dat
+public class LambokEx1 {
+	private int empId;
+	private String empName;
+	private double empSalary;
+	
+	
+}

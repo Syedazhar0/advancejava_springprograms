@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ProductBillAPP</title>
+<style type="text/css">
+label{height:20px;
+width:100px;
+display:inline-block;
+color:red;
+font-style:italic;
+font-weight:bolder;
+font-family:algerian;
+text-decoration:underline}
+body{
+background-color:bisque;
+text-align:center;
+border:5px solid blue;
+}
+</style>
+<meta charset="UTF-8">
+</head>
+<h1>ProductBill</h1>
+<body>
+<form method="get" action="ProductServlet">
+<label>Product ID:</label>
+<input type="number" name="productid" placeholder="enter product id" required>
+
+<br><br>
+
+<label>Product Name:</label>
+<input type="text" name="productName" placeholder="enter product name" required>
+
+<br>
+<br>
+
+<label>Product Price:</label>
+<input type="number" name="productPrice" placeholder="enter product  price" required>
+
+<br>
+<br>
+
+<label>Product Quantity:</label>
+<input type="number" name="productQty" placeholder="enter product quantity" min="2"  max="10" required>
+
+<label>Submit:</label>
+<input type="submit"  value="productInvoice">
+</form>
+</body>
+</html>

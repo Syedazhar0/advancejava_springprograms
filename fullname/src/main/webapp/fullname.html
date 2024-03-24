@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Form......</title>
+<style type="text/css">
+* {
+text-align:center;
+h1{
+color:red;
+}
+}
+body{
+background-color:bisque;
+}
+  ::placeholder{
+color:orange;
+}
+input{
+color:orange;
+background-color:black;
+font-family:algerian;
+font-style:italic;
+font-size:15px;
+}
+form{
+text-align:left;
+display:inline-block;
+border:5px solid orange;
+border-width:10px;
+}
+label{
+font-family:algerian;
+font-style:italic;
+font-size:15px;
+font-weight:bolder;
+width:100px;
+height:30px;
+display:inline-block;
+color:black;
+}
+</style>
+</head>
+<body>
+<h1> Display Full Name.....</h1>
+<form method="get" action="FullNameDisplay">
+ <label>FirstName:</label>
+            <input type="text" name="FirstName"placeholder="FirstName" required><br>
+            <label>MiddleName:</label>
+            <input type="text" name="MiddleName"placeholder="MiddleName" required><br>
+             <label>LastName:</label>
+            <input type="text" name="LastName"placeholder="LastName" required><br>
+            <input type="password" name="password"placeholder="enter password">
+     <label>Login:</label>
+            <input type="submit" name="Login">
+</form>
+</body>
+</html>

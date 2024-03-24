@@ -1,0 +1,13 @@
+package lambokex1;
+
+public class Employee {
+
+	public static void main(String[] args) {
+		LambokEx1 lambokEx1 =new LambokEx1(101,"azhar",20000.0);
+		System.out.println(lambokEx1);
+		LambokEx1 lambokEx2 =new LambokEx1(101,"syed",21000.0);
+		System.out.println(lambokEx2);
+
+	}
+
+}

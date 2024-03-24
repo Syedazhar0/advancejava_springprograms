@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        ::placeholder{
+            color:orangered;
+        }
+        *{
+            text-align: center;
+            color:black;
+            font-family:"poppins" sans-serif;
+            font-style: italic;
+            margin:0px;
+            padding:0px;
+        }
+        body{
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: auto;
+            background: url('https://tse1.mm.bing.net/th?id=OIP.Zt9L2siMZEld8_nUBIAs0gHaEo&pid=Api&P=0&h=180');
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+        }
+        .box{
+            height:auto;
+            width:fit-content;
+            border:2px solid #625d5d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            backdrop-filter: blur(15px)no-repeat;
+            background:transparent;
+            width: auto;
+
+        }
+        label{
+            color:aliceblue;
+            font-size: 1em;
+            pointer-events: none;
+            transition: 0.5s;
+    
+        }
+        h1{
+            color: aliceblue;
+            font-size: 2em;
+        }
+       
+       input{
+        position: relative;
+        margin:auto ;
+        width:auto ;
+        border-bottom: 2px solid #fff;
+       }
+       
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form :</title>
+</head>
+<body>
+    <div class="box"></div>
+    <form method="get" action="RegistrationFormServlet">
+        <h1>Registration form</h1>
+        <label >user name:</label>
+        <input type="text" name="user name" placeholder="enter user name" required>
+        <br><br>
+        <label >password:</label>
+        <input type="password" name="password" placeholder="enter password" required>
+        <br><br>
+        <label >user mobile:</label>
+        <input type="number" name="mobile" placeholder="enter mobile number" required>
+        <br><br>
+        <label >user email:</label>
+        <input type="email" name="email" placeholder="enter user email" required>
+        <br><br>
+        <label >Gender:</label>
+        Male:<input type="radio" name="Gender" value="M" required >
+        Female:<input type="radio" name="Gender" value="f" required>
+        <br><br>
+        <label >Qualification:</label>
+        MTech:<input type="checkbox" name="Qualification" value="MTech">
+        BTech:<input type="checkbox" name="Qualification" value="BTech">
+        BCA:<input type="checkbox" name="Qualification" value="BCA" >
+        BCOM CA:<input type="checkbox" name="Qualification" value="BCOM CA">
+        <br><br>
+        <label >DOB :</label>
+        <input type="date" name="DOB" required>
+        <br><br>
+        <label >Country :</label>
+        <select name="country">
+            <option>INDIA</option>
+            <option>CHINA</option>
+            <option>AMEERPET</option>
+            <option>ALGERIA</option>
+        </select>
+        <br><br>
+        <label >Languages known:</label>
+        <select name="Languages_known" size="4" multiple>
+            <option value="telugu">telugu</option>
+            <option value="hindi">hindi</option>
+            <option value="english">english</option>
+            <option value="kannad">kannad</option>
+        </select>
+        <br><br>
+        <label >Comments :</label>
+        <textarea name="Comments"  cols="24" rows="5" placeholder=" please drop your here comments">Commentts</textarea>
+        <br><br>
+        <label >Submit :</label>
+        <input type="submit" value="Register">
+    </div>
+    </form>
+</body>
+</html>

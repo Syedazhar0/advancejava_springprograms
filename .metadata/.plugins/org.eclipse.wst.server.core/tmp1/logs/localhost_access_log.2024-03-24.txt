@@ -1,0 +1,8 @@
+127.0.0.1 - - [24/Mar/2024:16:00:15 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Mar/2024:16:00:15 +0530] "GET /ProductApplicationJs/ HTTP/1.1" 200 4521
+0:0:0:0:0:0:0:1 - - [24/Mar/2024:16:00:15 +0530] "GET /ProductApplicationJs/ProductValidate.js HTTP/1.1" 200 1274
+0:0:0:0:0:0:0:1 - - [24/Mar/2024:16:00:16 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Mar/2024:16:00:22 +0530] "GET /ProductApplicationJs/Productjs.jsp HTTP/1.1" 500 2376
+0:0:0:0:0:0:0:1 - - [24/Mar/2024:16:03:47 +0530] "GET /ProductApplicationJs/ HTTP/1.1" 200 4521
+0:0:0:0:0:0:0:1 - - [24/Mar/2024:16:03:47 +0530] "GET /ProductApplicationJs/ProductValidate.js HTTP/1.1" 200 1274
+0:0:0:0:0:0:0:1 - - [24/Mar/2024:16:03:49 +0530] "GET /ProductApplicationJs/Productjs.jsp HTTP/1.1" 200 13840661

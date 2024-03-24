@@ -1,0 +1,5 @@
+package lambokex1;
+
+public @interface Data {
+
+}
